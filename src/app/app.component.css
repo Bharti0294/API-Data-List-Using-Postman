@@ -1,0 +1,15 @@
+.bg{
+    background-color: rgb(52, 52, 59);
+    color: white;
+}
+
+ .bg{
+    background-color: rgb(41, 39, 39);
+    color: white;
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin-top: 10px;
+
+}

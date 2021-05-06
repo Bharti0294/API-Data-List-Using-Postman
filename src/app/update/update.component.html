@@ -1,0 +1,38 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <p style="text-align: center;font-size: 30px;"><b>Edit</b></p>
+            <div *ngIf="alert" class="alert alert-success alertdismissible fade show" role="alert">
+                <strong>Success!</strong>Your data has been updated successfully.
+                <button (click)="closeAlert()" type="button" class="close" datadismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form [formGroup]="editRest" (ngSubmit)="collection()">
+                <div class="form-group">
+                    <label for="exampleInputTitle">Title</label>
+                    <input type="text" class="form-control" formControlName="title" placeholder="Title">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputAuhtor">Author</label>
+                    <input type="author" class="form-control" formControlName="author" placeholder="Author">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail">Email</label>
+                    <input type="email" class="form-control" formControlName="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputLoction">Loction</label>
+                    <input type="loction" class="form-control" formControlName="loction" placeholder="Loction">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputContact">Contact</label>
+                    <input type="contact" class="form-control" formControlName="contact" placeholder="Contact">
+                </div>
+                <button type="submit" class="btn btn-primary">Update</button>
+            </form>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
