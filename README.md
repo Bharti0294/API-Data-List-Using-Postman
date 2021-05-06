@@ -1,27 +1,9 @@
-# PostmanAPI
+## output
+![Localhost -posts Data output](https://user-images.githubusercontent.com/79982684/117273090-6bee7e80-ae79-11eb-8fd6-7d992e51b0f1.PNG)
+![Delete data using postman](https://user-images.githubusercontent.com/79982684/117273119-71e45f80-ae79-11eb-95fd-7d5dca480472.PNG)
+![db json file output](https://user-images.githubusercontent.com/79982684/117273139-7741aa00-ae79-11eb-943e-91ddd0e96098.PNG)
+![Data post method using postman output](https://user-images.githubusercontent.com/79982684/117273159-7b6dc780-ae79-11eb-939b-6112b9448727.PNG)
+![API Data using Postman](https://user-images.githubusercontent.com/79982684/117273175-80cb1200-ae79-11eb-812f-44bee456ba08.png)
+![Add Data using console output](https://user-images.githubusercontent.com/79982684/117273193-858fc600-ae79-11eb-8a4d-0b238f038d57.PNG)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
